@@ -22,7 +22,7 @@ const xero = new XeroClient({
   clientId: x_client_id,
   clientSecret: x_client_sectet,
   //use localhost if developing with emulators and add the myapp uri list
-  redirectUris: ['https://us-central1-xero-example.cloudfunctions.net/xeroInit/callback'],
+  redirectUris: ['https://us-central1-yourfirebaseapp.cloudfunctions.net/xeroInit/callback'],
   scopes: ['openid', 'profile', 'email', 'accounting.transactions', 'accounting.settings', 'offline_access'],
   httpTimeout: 3000
 })
